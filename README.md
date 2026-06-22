@@ -40,6 +40,10 @@ For each trading day:
 
 > The strategy **outperforms** the DIA benchmark on a risk-adjusted basis (Sharpe delta: +0.0603).
 
+### Performance Chart
+
+![Strategy Performance vs DIA Benchmark](Output.jpeg)
+
 ---
 
 ## Project Structure
@@ -49,6 +53,7 @@ jordy/
 ├── README.md                          # This file
 ├── run_mean_reversion.py              # Standalone execution script
 ├── mean reversion strategy.ipynb      # Original Jupyter notebook
+├── Output.jpeg                        # Performance results chart (image)
 └── data/
     └── notebook_files/
         ├── djia_constituents.csv      # DJIA ticker symbols & metadata
